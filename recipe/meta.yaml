@@ -1,5 +1,5 @@
 {% set name = "labeling" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/labeling-{{ version }}.tar.gz
-  sha256: 0e4c4fa02d145ba6e4e1478cfad7bd87c7f1c4547989e028b8614c7721731437
+  sha256: 064d36064e45b7d53c39fb707ad8e208f3eb7eedf6170263227594ff675e367b
 
 build:
   noarch: python
@@ -21,7 +21,6 @@ requirements:
   run:
     - numpy ==1.21
     - pillow ==9.0.1
-    - pymongo ==3.11.0
     - python >=3.6
     - tifffile ==2021.4.8
 
