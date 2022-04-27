@@ -1,5 +1,5 @@
 {% set name = "labeling" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/labeling-{{ version }}.tar.gz
-  sha256: 3fe55c609de44a33d1426bef31b1b769e8f53185c8083fd936fb5ab2790163b7
+  sha256: eeb259932edda017527efb53ab6bcd28b60ed44d8cb7274cbe07a62376f9b28d
 
 build:
   noarch: python
